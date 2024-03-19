@@ -7,12 +7,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .header {
     display: flex;
     justify-content: space-between; 
     background-color: #1F2937;
-    padding: 0px 100px;
+    padding: 0px 200px;
 }
 
 .header h5 {
@@ -35,13 +34,11 @@ a {
     text-decoration: none;
 }
 
-
-
 .topsection {
     background-color: #1F2937;
     display: flex;
     gap: 24px;
-    padding: 36px 100px;
+    padding: 72px 200px;
 }
 
 .topsection .leftside{
@@ -68,8 +65,12 @@ a {
 .topsection button {
     background-color: #3882F6;
     color: #E5E7EB;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none ;
+    font-weight: 900;
 }
-
 
 .topsection .rightside{
     background-color: rgb(161, 180, 180);
@@ -88,25 +89,110 @@ a {
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 36px 100px;
+    padding: 72px 250px;
 }
 
 .middlesection h3 {
-    size: 36px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.middlesection button {
+    background-color: white;
+    border-radius: 16px;
+    border-color: #3882F6;
+    border-width: 4px;
+    height: 150px;
+    width: 150px;
+}
+
+.middlesection .buttons {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+
+.middlesection .card {
+    width: 150px;
 }
 
 .middlesection .cards {
     display: flex;
-    
+    padding: 8px 0px;
+    gap: 24px;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
+
+
 .quotesection { 
-    padding: 72px 300px;
+    padding: 72px 250px;
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    font-size: 24px;
+    justify-items: end;
+}
+
+.quotesection h2 { 
+    
     font-style: italic;
     font-size: 36px;
+    font-weight: 20;
+}
 
+.quotesection h5 { 
+    
+    text-align: right;
+
+}
+
+.bottomsection .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomsection .box {
+    margin: 72px 250px;
+    padding: 24px 124px;
+    background-color: #3882F6;
+    border-radius: 16px;
+}
+
+.bottomsection .rightside {
+    display: flex;
+    align-items: center;
+}
+
+
+.bottomsection button {
+    
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin-top: 8px;
+    padding: 8px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 3px ;
+    font-weight: 900;
+    width: 100px;
+    margin-left: 124px;
+}
+
+.bottomsection h5 {
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+    margin: 0px;
+    
+}
+
+.bottomsection h6 {
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    margin: 0px;
 }
