@@ -1,12 +1,28 @@
 
-console.log((4+6+9)/77)
+add7(10);
+multiply(2,2);
+capitalize("hello")
+lastLetter("siufhweauofhoie")
 
-let a = 10
-console.log(9*a)
+function add7(number){
+    number = number + 7
+    console.log(number)
+}
 
-let b = 7 * a
-console.log(b)
+function multiply(number1, number2){
+    multiplied = number1 * number2
+    console.log(multiplied)
+}
 
-const MAX = 57
-var actual = MAX - 13
-var percentage = actual/MAX
+function capitalize(string){
+    lowerCased = string.toLowerCase()
+    upperCased = lowerCased.charAt(0).toUpperCase() + lowerCased.slice(1)
+    console.log(upperCased)
+}
+
+function lastLetter(string){
+    letters = string.length
+    lastchar = string.slice(letters-1)
+
+    console.log(lastchar)
+}
